@@ -5,7 +5,7 @@ metadata:
   labels:
     app: studentapp
 spec:
-   replicas: 3
+  replicas: 3
   selector:
     matchLabels:
       app: studentapp
