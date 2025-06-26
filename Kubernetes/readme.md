@@ -1,8 +1,6 @@
 ## 🖥️ 1. Launch EC2 Instance
 - Launch an **Ubuntu EC2 instance**
 - Name it: `EKS-Main`
-- Ensure it has internet access and appropriate permissions (e.g., AmazonEKSAdminPolicy, EC2InstanceProfileForImageBuilder).
-
 ---
 
 ## ☸️ 2. Create EKS Cluster
