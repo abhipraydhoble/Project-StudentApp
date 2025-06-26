@@ -4,16 +4,15 @@
 ---
 
 ## ☸️ 2. Create EKS Cluster
-- Use the AWS Console or CLI to create an EKS Cluster.
 - **Wait 15–20 minutes** for the cluster to become active.
-- Ensure the worker nodes are created and joined to the cluster.
+- Ensure the worker nodes are created.
 
 ---
 
 ## 🛢️ 3. Create RDS (MariaDB) Database
 - Go to RDS Console → Create Database.
 - Select **MariaDB** as the engine.
-- Make sure the DB is created **in the same VPC** as your EKS cluster.
+- Make sure the DB is **Connected to Worker Node** created **in the same VPC** as your EKS cluster 
 
 
 ---
@@ -28,8 +27,10 @@
   ```bash
   mysql -h <RDS-ENDPOINT> -P <PORT> -u <USERNAME> -p
   ```
-* Inside MariaDB prompt, create database and tables:
-
+* Inside MariaDB prompt, create database and tables refer below link:
+````
+https://github.com/abhipraydhoble/Project-StudentApp/tree/main/Kubernetes/Database
+````
 ---
 
 ## 🔐 5. Update Security Group for EKS Cluster
