@@ -10,7 +10,7 @@ sudo chmod 777 /var/run/docker.sock
 ## Docker (Amazon-Linux)
 ````
 sudo yum update -y
-sudo yum install docker-y
+sudo yum install docker -y
 sudo systemctl start docker
 sudo usermod -aG docker ec2-user
 newgrp docker
