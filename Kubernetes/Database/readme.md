@@ -16,10 +16,14 @@
 
 ![database-instance](https://github.com/abhipraydhoble/Project-3-tier-Student-App/assets/122669982/8159a278-d612-441e-93da-d581428cdd3a)
 
+**steps to install db on amazon linux**
+````
+yum update
+yum install mariadb105-server-y
+````
+**steps to install db on ubuntu server**
 ````
 sudo apt update -y
-````
-````
 sudo  apt install mariadb-server -y
 ````
 ````
